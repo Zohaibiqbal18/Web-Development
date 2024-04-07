@@ -1,0 +1,59 @@
+.fa-bars{
+  font-size: 20px;
+}
+button{
+  width: 40px;
+  cursor: pointer;
+
+}
+.drop{
+  display: inline-block;
+  position: relative;
+}
+.drop-con{
+  display: none;
+  position: absolute;
+  min-width: 100px;
+  margin-top: 2px;
+}
+.drop-con a{
+  padding: 5px;
+  display: block;
+  text-decoration: none;
+}
+.drop-con a:hover{
+  color: white;
+  background-color: black;
+}
+.drop:hover .drop-con{
+  display: block;
+  background-color: gainsboro;
+  
+}
+
+
+.dropp{
+  position: relative;
+  left: 150px;
+  display: inline-block;
+  cursor: pointer;
+}
+.dropp img{
+  width: 60px;
+}
+.drop-conn{
+  display: none;
+  position: absolute;
+  min-width: 150px;
+  background-color: cornsilk;
+  box-shadow: 1px 1px 3px black;
+}
+.drop-conn img{
+  width: 300px;
+}
+.des{
+  text-align: center;
+}
+.dropp:hover .drop-conn{
+  display: block;
+}
